@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'koverwatch';
+  src: url(fonts/koverwatch.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundB';
+  src: url(fonts/NanumSquareRoundB.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundEB';
+  src: url(fonts/NanumSquareRoundEB.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumSquareRoundR';
+  src: url(fonts/NanumSquareRoundR.ttf) format('truetype');
+}
+
+body {
+  background-color: #EAEAEA;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+#logo {
+  text-align: center;
+}
+
+.overwatch_font {
+  font-family: koverwatch;
+}
+
+#topMenu {
+  display: block;
+  height: 30px;
+  width: 895px;
+  margin: 0 auto;
+}
+#topMenu > ul > li {
+  list-style: none;
+  color: white;
+  background-color: #5D5D5D;
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+#topMenu .menuLink {
+  text-decoration:none;
+  color: white;
+  display: block;
+  width: 160px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Dotum, Arial;
+}
+#topMenu .menuLink:hover {
+  color: white;
+  background-color: #8C8C8C;
+}
+
+.contents {
+  width: 770px;
+  margin:20px auto;
+  padding: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #5D5D5D;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: NanumSquareRoundB, Dotum, Arial;
+}
+
+.title {
+  font-family: NanumSquareRoundEB;
+  font-size: 40px;
+  line-height: 0;
+}
+.subtitle2 {
+  font-family: NanumSquareRoundB;
+  font-size: 20px;
+}
+
+.subtitle1 {
+  font-family: NanumSquareRoundB;
+  font-size: 25px;
+}
+
+.overwatch {
+  width: 750px;
+  margin:20px auto;
+  text-align: center;
+  padding: 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #5D5D5D;
+  font-family: NanumSquareRoundB, Dotum, Arial;
+}
+
+#finish {
+  padding: 30px;
+}
